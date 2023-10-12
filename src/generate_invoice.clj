@@ -84,9 +84,6 @@
                     val
                     adjust-values)]
     invoice))
-    ;;(if (s/valid? :invoice-spec/invoice invoice)
-    ;;  invoice
-    ;;  (throw (ex-info "Invalid invoice" {:invoice invoice})))))
 
 (comment
   (main "invoice.json")
